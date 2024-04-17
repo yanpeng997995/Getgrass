@@ -16,13 +16,13 @@
 3. 浏览器访问`http://{容器ip}:8000`
 4. 点击上传文件 上传编辑好的 `account.txt`
 
-### **Linux/Ubuntu/ 运行**
-1.`sudo -s`
-#提升管理员权限
-2.`git clone https://github.com/yanpeng997995/Getgrass && cd Getgrass`
-#拉取文件并进入文件夹
-3.浏览器访问`http://{服务器IP}:8000`
-4.创建一个TXT文件，格式为：`ID==http://user:password@ip:端口`，示例在下方，如需多IP可多行操作。
+### **Linux/Ubuntu 运行**
+1. `sudo -s`
+2. `git clone https://github.com/yanpeng997995/Getgrass && cd Getgrass`
+3. `docker compose up --build -d`
+4. 浏览器访问`http://{服务器ip}:8000`
+5. 点击上传文件 编辑好 `txt`文档，上传，搞定
+
 
 ### 关于`account.txt`文件格式
 - 不配置代理
